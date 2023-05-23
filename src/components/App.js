@@ -6,7 +6,8 @@ import { createReview } from "../api";
 import { updateReview } from "../api";
 
 const LIMIT = 6;
-
+console.log("a");
+console.log("bb");
 function App() {
   //영화 list들을 담고있는 items State
   const [items, setItems] = useState([]);
